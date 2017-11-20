@@ -1,0 +1,44 @@
+{
+  "name": "label-a-tom",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "An Atom package for Front-end developers at Label A. Includes a welcome screen with useful information and the automatic installation of packages to get you up and running!",
+  "keywords": [
+    "Label A",
+    "Front-end"
+  ],
+  "repository": "https://github.com/LabelA/label-a-tom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "deserializers": {
+    "WelcomeView": "createWelcomeView"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "etch": "0.9.0"
+  },
+  "configSchema": {
+    "showOnStartup": {
+      "type": "boolean",
+      "default": true,
+      "description": "Show the Label A-tom screen when opening Atom"
+    }
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  },
+  "package-deps": [
+    "atom-ide-ui",
+    "ide-typescript",
+    "language-babel",
+    "linter-eslint",
+    "linter-ui-default",
+    "docblockr",
+    "editorconfig",
+    "tab-foldername-index"
+  ]
+}

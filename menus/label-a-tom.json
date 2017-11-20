@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Show Label A-tom",
+        "command": "label-a-tom:show"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Label A-tom",
+          "submenu": [
+            {
+              "label": "Show",
+              "command": "label-a-tom:show"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
