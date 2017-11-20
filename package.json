@@ -1,7 +1,7 @@
 {
   "name": "label-a-tom",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An Atom package for Front-end developers at Label A. Includes a welcome screen with useful information and the automatic installation of packages to get you up and running!",
   "keywords": [
     "Label A",
